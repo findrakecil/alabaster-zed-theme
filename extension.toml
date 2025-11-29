@@ -1,0 +1,7 @@
+id = "findrakecil-alabaster"
+name = "Alabaster"
+version = "1.0.0"
+schema_version = 1
+authors = ["Liffindra Angga Zaaldian <lzaaldian@gmail.com>"]
+description = "Light and Dark theme ported from https://github.com/tonsky/sublime-scheme-alabaster"
+repository = "https://github.com/findrakecil/alabaster-zed-theme"
