@@ -49,6 +49,9 @@
           "constructor": {
             "color": "#325cc0ff"
           },
+          "function": {
+            "color": "#325cc0ff"
+          },
           "number": {
             "color": "#7a3e9dff"
           },
@@ -99,35 +102,41 @@
       "appearance": "dark",
       "name": "Alabaster Dark",
       "style": {
-        "background": "#323738ff",
-        "border": "#00000000",
+        "background": "#0e1415ff",
+        "border": "#323738ff",
         "created": "#6abf40ff",
         "deleted": "#d2322dff",
         "editor.active_line.background": "#ffffff10",
         "editor.background": "#0e1415ff",
+        "editor.document_highlight.read_background": "#293334ff",
+        "editor.foreground": "#cececeff",
         "editor.gutter.background": "#0e1415ff",
-        "elevated_surface.background": "#1A2021ff",
+        "element.hover": "#575b5cff",
+        "element.selected": "#575b5cff",
+        "elevated_surface.background": "#24292aff",
         "error": "#cc3333ff",
         "error.background": "#2b1d1eff",
         "error.border": "#00000000",
-        "hint": "#4a88e4ff",
+        "hint": "#cecece7f",
         "hint.background": "#4a88e4ff",
         "hint.border": "#00000000",
-        "ignored": "#aaaaaaff",
-        "info.background": "#1A2021ff",
+        "ignored": "#878a8aff",
+        "info": "#4a88e4ff",
+        "info.background": "#24292aff",
         "modified": "#ec8013ff",
         "panel.background": "#323738ff",
-        "panel.focused_border": "#323738ff",
+        "panel.focused_border": "#575b5cff",
         "players": [
           {
             "cursor": "#cd974bff",
             "selection": "#293334ff"
           }
         ],
-        "scrollbar.thumb.background": "#ffffff10",
-        "scrollbar.thumb.hover_background": "#ffffff10",
+        "scrollbar.thumb.background": "#505555ff",
+        "scrollbar.thumb.hover_background": "#505555ff",
+        "scrollbar.track.background": "#ffffff10",
         "search.match_background": "#cd974bff",
-        "status_bar.background": "#1A2021ff",
+        "status_bar.background": "#24292aff",
         "syntax": {
           "boolean": {
             "color": "#cc8bc9ff"
@@ -141,11 +150,14 @@
           "constructor": {
             "color": "#71ade7ff"
           },
-          "operator": {
-            "color": "#708b8dff"
+          "function": {
+            "color": "#71ade7ff"
           },
           "number": {
             "color": "#cc8bc9ff"
+          },
+          "operator": {
+            "color": "#708b8dff"
           },
           "punctuation": {
             "color": "#708b8dff"
@@ -158,12 +170,14 @@
           },
           "string.escape": {
             "color": "#ffffff10"
+          },
+          "type": {
+            "color": "#71ade7ff"
           }
         },
         "tab.active_background": "#0e1415ff",
         "tab.inactive_background": "#323738ff",
         "tab_bar.background": "#323738ff",
-        "terminal.background": "#0e1415ff",
         "terminal.ansi.black": "#000000ff",
         "terminal.ansi.bright_black": "#777777ff",
         "terminal.ansi.red": "#e25d56ff",
@@ -180,7 +194,10 @@
         "terminal.ansi.bright_cyan": "#4ac9e2ff",
         "terminal.ansi.white": "#cececeff",
         "terminal.ansi.bright_white": "#ffffffff",
-        "text": "#cececeff",
+        "terminal.background": "#0e1415ff",
+        "terminal.foreground": "#cececeff",
+        "text.disabled": "#878a8aff",
+        "text.muted": "#cececeff",
         "title_bar.background": "#323738ff",
         "title_bar.inactive_background": "#323738ff",
         "toolbar.background": "#0e1415ff",
