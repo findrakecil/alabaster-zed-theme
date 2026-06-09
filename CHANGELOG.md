@@ -1,3 +1,9 @@
+## [1.0.3] - 2026-06-09
+
+### 🐛 Bug Fixes
+
+- Wrap guides not showed on dark theme
+
 ## [1.0.2] - 2026-04-03
 
 ### 🐛 Bug Fixes
